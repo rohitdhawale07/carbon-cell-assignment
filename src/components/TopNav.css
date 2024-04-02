@@ -1,0 +1,63 @@
+.name {
+  position: relative;
+  letter-spacing: 2px;
+  -webkit-text-stroke: 1.6px #d6d828;
+}
+.name::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #76ff74;
+  -webkit-text-stroke: 0px #d6d828;
+  border-right: 2px solid #76ff74;
+  overflow: hidden;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+  70%,
+  90% {
+    width: 100%;
+  }
+}
+
+@keyframes moveTopBottom {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(2px);
+  }
+}
+
+.moving-btn {
+  animation: moveTopBottom 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes moveHand {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  .moving-icon {
+    animation: moveHand 0.6s ease-in-out infinite;
+  }
+  

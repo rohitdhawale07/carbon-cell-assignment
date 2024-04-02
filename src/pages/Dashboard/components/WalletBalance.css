@@ -1,0 +1,15 @@
+@keyframes glow {
+  0% {
+    background-color: #16A34A;
+  }
+  50% {
+    background-color: #06c206;
+  }
+  100% {
+    background-color: #00a34f;
+  }
+}
+
+.glowing-btn {
+  animation: glow 1.5s ease-in-out infinite;
+}
