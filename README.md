@@ -1,4 +1,42 @@
-# Getting Started with Create React App
+# Carbon cell
+### Hosted Link:- https://carbon-cell-assignment-git-main-rohit-dhawales-projects.vercel.app/
+### Discription
+This project is a fully responsive React application that includes various features such as a side navigation bar, dynamic card components, interactive animations, and integration with the Chart.js library for data visualization. 
+Additionally, it provides MetaMask wallet integration to manage wallet connection and display account information. 
+The application utilizes Chakra UI for the side drawer component, which is hidden on small screens and accessible via a hamburger menu icon.
+
+### Features
+- Responsive Design: The application is fully responsive and adapts to different screen sizes. The side navigation bar is hidden on small screens, and a hamburger menu icon is displayed 
+    to access the side drawer.
+- Side Drawer with Chakra UI: Utilizes Chakra UI library to implement the side drawer component. The drawer is hidden by default on small screens and can be opened by clicking on the 
+     hamburger menu icon.
+- Side Navigation Bar: Displays navigation links and user profile information.
+  Supports highlighting of active navigation item and dropdown menu.
+- Dynamic Cards: Renders data fetched from an external API into dynamic card components.
+   Each card displays asset information, including symbol, code, description, rate, and trade button.
+- Interactive Animations: Utilizes Framer Motion library for animation effects, such as motion transitions and hover effects.
+- Chart.js Integration: Utilizes Chart.js library for creating line charts and doughnut charts to visualize data fetched from external APIs.
+- MetaMask Integration: Implements MetaMask wallet integration to connect and manage wallet accounts. Displays account information upon successful connection and provides feedback messages for connection status.
+
+### Technologies Used
+- React
+- Tailwind CSS
+- Chartjs library
+- web3js
+- Chakra UI
+- Framer Motion
+- Metamsk Wallet
+- React icons
+- JavaScript (ES6)
+
+### Usage
+- Navigate through different pages using the side navigation bar current nav items are displayed on click.
+- View asset details and perform trade operations.
+- Interact with animated elements for an engaging user experience.
+- Explore data visualization using Chart.js line charts and doughnut charts.
+- Connect your MetaMask wallet by clicking on the "Connect Wallet" button and follow the prompts for successful connection.
+  
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
